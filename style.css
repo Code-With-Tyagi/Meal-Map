@@ -1,0 +1,188 @@
+.container-fluid {
+    /* border: 2px solid black; */
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    border: 2px solid black;
+}
+
+html {
+    background-color: rgba(0, 0, 0, 0.792);
+    background-image: url(thali2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    scrollbar-width: none;
+    position: relative;
+    overflow-x: hidden;
+}
+body{
+    background-color: transparent;
+}
+.nav-link {
+    color: black;
+}
+@media screen and (max-width: 700px) {
+    .nav {
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* border: 2px solid black; */
+        background-color: orange;
+        width: 100vw;
+        margin-left: 0px;
+    }
+    .nav-link:hover{
+        width: 100%;
+    }
+}
+
+.nav-link:hover {
+    background-color: orangered;
+    color: white;
+    height: 45px;
+    transform: scale(1.1);
+}
+
+.dropdown-item:hover{
+    background-color: orangered;
+    color: white;
+    
+}
+.contain{
+    color: yellow;
+    font-weight:;
+    margin-top: 200px;
+    float: center;
+    text-align: left;
+}
+.contain h1{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.btn{
+    color: white;
+    border: 2px solid white;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    
+}
+.btn:hover{
+color: blue;
+background-color: ;
+}
+
+/* services styles */
+.break1{
+    height: 100px;
+    width: 100px;
+}
+
+.col-md-3 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+.col1 {
+    border:3px solid black;
+
+    height: 150vh;
+    border: none;
+
+}
+
+.col2 {
+    border: 1px solid #bbb;
+    background-color: #fff;
+    height: 150vh;
+
+    border: none;
+
+}
+
+.col3 {
+
+    border: 2px solid black;
+    height: 150vh;
+    border: none;
+
+}
+
+.col4 {
+
+    border: 2px solid black;
+    height: 150vh;
+    border: none;
+
+}
+
+.col5 {
+
+    border: 2px solid black;
+    height: 150vh;
+    border: none;
+}
+
+#contain {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100px;
+    gap: 100px;
+    margin-left: 690px;
+    margin-top: 100px;
+
+
+}
+
+.tyagi {
+    /* margin-top: 9px; */
+    position: relative;
+    text-align: center;
+}
+
+.image1 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.image1 h2 {
+    text-align: center;
+}
+
+.images h2 {
+    text-align: center;
+}
+
+.col2 h1 {
+    margin-left: 40px;
+}
+
+.col3 h1 {
+    margin-left: 40px;
+}
+
+.col5 h1 {
+    margin-left: 40px;
+}
+
+

@@ -1,0 +1,22 @@
+body{
+    background-color: #55ffe5;
+}
+.head{
+    text-align: center;
+}
+.previous{
+    text-align: center;
+    margin-top: 30px;
+}
+.container{
+    border: 2px solid black;
+}
+.col-md-6{
+    border: 2px solid black;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+}
